@@ -1,0 +1,17 @@
+{
+  "name": "digiruu-blogs-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chuong vo <chuong2v@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "config": "^3.3.9",
+    "puppeteer": "^20.2.0",
+    "radash": "^10.8.1"
+  }
+}
