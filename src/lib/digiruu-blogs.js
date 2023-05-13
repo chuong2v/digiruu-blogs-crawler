@@ -2,6 +2,7 @@ const puppeteer = require("puppeteer");
 const Promise = require("bluebird");
 const fs = require("fs");
 const _ = require('radash');
+// MONGODB_HOST=mongodb+srv://chuong2vdev:W6CVpPbcbmIENvcO@cluster0.s2sjzxq.mongodb.net/blogs?retryWrites=true&w=majority
 
 (async () => {
   const browser = await puppeteer.launch({
